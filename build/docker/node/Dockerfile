@@ -9,6 +9,11 @@ COPY ./app ./
 
 # Set the working directory
 
+RUN npm config set fetch-retries 3
+RUN npm config set fetch-retry-mintimeout 100000
+RUN npm config set fetch-retry-maxtimeout 600000
+RUN npm config set cache-min 3600
+
 RUN npm install
 RUN npm run build
 
