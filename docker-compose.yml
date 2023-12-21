@@ -1,0 +1,8 @@
+services:
+  node:
+    build: 
+      context: .
+      dockerfile: ./build/docker/node/Dockerfile
+      target: deploy
+    ports:
+      - "3003:3000"

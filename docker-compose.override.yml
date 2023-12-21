@@ -1,0 +1,9 @@
+services:
+  node:
+    build:
+      target: main
+    volumes:
+      - ./app:/app
+    ports:
+      - 3000:3000
+    command: ["npm", "start"]
