@@ -1,5 +1,5 @@
 # Use a lightweight Node.js image as the base
-FROM node:14-alpine as main
+FROM node:20-alpine as main
 
 # Expose port 3000
 EXPOSE 3000
