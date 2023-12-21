@@ -4,7 +4,6 @@ This project provides a simple quick and dirty solution to read data from Thermo
 
 **Note:** This application only runs on Chrome and Edge browsers and uses the browser Bluetooth API.
 
-
 ## Local Development
 
 To set up the project locally, follow these steps:
@@ -20,6 +19,14 @@ To set up the project locally, follow these steps:
     docker-compose up
     ```
 5. Open your web browser and navigate to `localhost:3000` to access the application.
+
+### Without docker
+If you dont want to use docker go into app folder and run 
+
+```shell
+npm install
+npm start
+```
 
 ## Usage
 
