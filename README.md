@@ -3,8 +3,8 @@
 This project provides a simple quick and dirty solution to read data from ThermoPro TP357 and TP357S devices in a web browser.
 
 **Note:** 
-    - This application only runs on Chrome and Edge browsers and uses the browser Bluetooth API.
-    - To activate bluetooth feature on Linux Chrome go to chrome://flags/, search for "Experimental Web Platform features" and enable it
+ + This application only runs on Chrome and Edge browsers and uses the browser Bluetooth API.
+ + To activate bluetooth feature on Linux Chrome go to chrome://flags/, search for "Experimental Web Platform features" and enable it
 
 
 ## Local Development
